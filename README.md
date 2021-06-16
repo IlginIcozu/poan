@@ -1,4 +1,4 @@
-# poan
+# Poan
 
 Poan is an interactive audiovisual work.
 
