@@ -13,7 +13,7 @@ Mouse X axis = Changes the number of recursioned circles.
 
 Mouse Y axis = A lowpass filter.
 
-Find your sweetspot and enjoy!
+**Find your sweetspot and enjoy!**
 
 ## Description of the Work
 
