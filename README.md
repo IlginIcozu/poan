@@ -15,3 +15,12 @@ Find your sweetspot and enjoy!
 ## Description of the Work
 
 Both the visual design and composition inspired by minimalism and recursions.
+
+
+```javascript
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+```
