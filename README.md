@@ -1,8 +1,6 @@
 # Poan
 
-Poan is an interactive audiovisual work.
-
-In order to see the work click [here](https://ilginicozu.github.io/poan/) 
+Poan is an interactive audiovisual work. Click [here](https://ilginicozu.github.io/poan/) to go to work.
 
 ### Introductions
 
