@@ -2,9 +2,18 @@
 
 Poan is an interactive audiovisual work.
 
-The work is live on; https://ilginicozu.github.io/poan/
+In order to see the work click [here](https://ilginicozu.github.io/poan/) 
 
+### Introductions
 
-## Description
+Mouse Click = Starts the audio.
 
-Poan inspareted by minimalism and recursion.
+Mouse X axis = Changes the number of recursioned circles.
+
+Mouse Y axis = A lowpass filter.
+
+Find your sweetspot and enjoy!
+
+## Description of the Work
+
+Both the visual design and composition inspired by minimalism and recursions.
