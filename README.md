@@ -2,9 +2,6 @@
 
 Poan is an interactive audiovisual work. **Click [here](https://ilginicozu.github.io/poan/)** to go to work.
 
-![Image of Yaktocat](https://github.com/IlginIcozu/poan/blob/main/poan.png)
-
-
 ### Introductions
 
 Mouse Click = Starts the composition.
@@ -15,6 +12,8 @@ Mouse Y axis = A lowpass filter.
 
 
 **Find your sweetspot and enjoy!**
+
+![Image of Yaktocat](https://github.com/IlginIcozu/poan/blob/main/poan.png)
 
 
 ## Description of the Work
