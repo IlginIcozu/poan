@@ -2,7 +2,7 @@
 
 Poan is an interactive audiovisual work. **Click [here](https://ilginicozu.github.io/poan/)** to see the work.
 
-### Introductions
+### Instructions
 
 Mouse Click = Starts the composition.
 
