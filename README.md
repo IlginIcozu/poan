@@ -7,15 +7,29 @@ Poan is an interactive audiovisual work. **Click [here](https://ilginicozu.githu
 
 ### Introductions
 
-Mouse Click = Starts the audio.
+Mouse Click = Starts the composition.
 
 Mouse X axis = Changes the number of recursioned circles.
 
 Mouse Y axis = A lowpass filter.
 
+
 **Find your sweetspot and enjoy!**
+
 
 ## Description of the Work
 
-Both the visual design and composition inspired by minimalism and recursions.
+Poan is an audio reactive work which has a minimalistic approach. 
+
+
+
+Since Poan is an audio reactive work, a new piece can be composed and replaced with the current one.
+
+Simply copy your composition to the folder and replace the name of the existing file. For example; 
+
+```javascript
+function preload(){
+  file1 = loadSound("den4.mp3");  /// Change den4.mp3 to your file name and type.
+}
+```
 
