@@ -25,9 +25,6 @@ function setup() {
 }
 
 
-
-
-
 function mousePressed() {
   if (!file1.isPlaying()) {
     file1.play();
@@ -36,8 +33,6 @@ function mousePressed() {
     file1.stop();
   }
 }
-
-
 
 
 function draw() {
@@ -104,8 +99,6 @@ function draw() {
   endShape();
 }
 
-
-//// Recursion function
 
 function rec(di, ti, alp, alp2) {
   for (var i = 0; i < 2000; i = i + 20) {
