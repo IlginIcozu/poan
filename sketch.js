@@ -7,10 +7,6 @@ let button1;
 let button2;
 let button3;
 let amp;
-let xoff = 0;
-let yoff = 0;
-let zoff = 0;
-let inc = 1;
 let lpf;
 
 
@@ -50,9 +46,7 @@ function draw() {
 
 
   lpf.freq(map(mouseY, 0, height, 4000, 0));
-  xoff += 0.001;
-  yoff += 0.01;
-  zoff += 0.001;
+
 
   let vol = amp.getLevel();
   let d = map(vol, 0, 0.5, 5, 600);
@@ -78,7 +72,7 @@ function draw() {
 
 
 
-  //// FFT Analyses Waveform
+  //// FFT Analyses waveform
 
   let waveform = fft.waveform();
   noFill();
