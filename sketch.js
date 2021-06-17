@@ -111,7 +111,7 @@ function draw() {
   for (let i = 0; i < waveform.length; i++) {
     let x = map(i, 0, waveform.length, 0, windowHeight);
     let y = map(waveform[i], -1, 1, 0, windowWidth);
-    vertex(y + y/1.3, x);
+    vertex(y, x);
   }
   endShape();
 
