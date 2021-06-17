@@ -26,4 +26,12 @@ function preload(){
   file1 = loadSound("den4.mp3");  /// Change den4.mp3 to your file name and type.
 }
 ```
+You can tweak these parameters to adjust the audio-reactivity according to your composition;
 
+```javascript
+  let circleSize = 600;  /// Change this one to adjust the middle circle size
+  let shake = 50;        /// Change this one to adjust the circles' x axis movement density.
+ 
+  let d = map(vol, 0, 0.5, 5, circleSize);
+  let tit = map(vol, 0, 0.5, 0, shake);
+```
