@@ -64,11 +64,7 @@ function draw() {
 
 
   let spe = fft.analyze();
-
   let freq = fft.getEnergy(100);
-
-
-
   let d2 = map(vol, 0, 0.5, 2, 700);
  
 
@@ -82,12 +78,10 @@ function draw() {
 
 
 
-
+  //// FFT Analyses Waveform
 
   let waveform = fft.waveform();
   noFill();
-
-
   beginShape();
   stroke(29);
   for (let i = 0; i < waveform.length; i++) {
@@ -114,17 +108,15 @@ function draw() {
     vertex(y, x);
   }
   endShape();
-
-
-
 }
+
+
+//// Recursion function
 
 function rec(di, ti, alp, alp2) {
   for (var i = 0; i < 2000; i = i + 20) {
-
     stroke(233, 255 - i / alp * alp2)
-
-    let x = width/2;
+    let x = width/2 + ti * floor(random(-1,1));
     ellipse(x, height / 2, di + i);
   }
 }
