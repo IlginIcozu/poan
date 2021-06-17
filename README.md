@@ -19,13 +19,9 @@ Mouse Y axis = A lowpass filter.
 
 ## Description of the Work
 
-Poan is an audio reactive work which has a minimalistic approach. 
+Poan is an audio reactive work which has a minimalistic approach. Recursive circles and animated waveforms generated from fft analysis.  
 
-
-
-Since Poan is an audio reactive work, a new piece can be composed and replaced with the current one.
-
-Simply copy your composition to the folder and replace the name of the existing file. For example; 
+Since Poan is an audio reactive work, a new piece can be composed and replaced with the current one. Simply copy your composition to the folder and replace the name of the existing file. For example; 
 
 ```javascript
 function preload(){
