@@ -21,7 +21,7 @@ Poan is an audio-reactive work. Recursive circles, animated waveforms (generated
 
 The composition made with SuperCollider and Ableton. To have the same minimalistic feel, i used short percussive high pitch sounds, spectral granulators and a sine wave sub-bass.
 
-Since Poan is an audio-reactive work, a new piece could be composed and replaced with the current one. Simply copy your composition to the folder and replace the name of the existing file. For example; 
+Since Poan is an audio-reactive work, a new piece can be composed and replaced with the current one. Simply copy your composition to the folder and replace the name of the existing file. For example; 
 
 ```javascript
 function preload(){
