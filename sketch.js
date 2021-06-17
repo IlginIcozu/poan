@@ -8,6 +8,8 @@ let button2;
 let button3;
 let amp;
 let lpf;
+let shake = 50;
+let circleSize = 600;
 
 
 function preload(){
@@ -44,8 +46,8 @@ function draw() {
 
 
   let vol = amp.getLevel();
-  let d = map(vol, 0, 0.5, 5, 600);
-  let tit = map(vol, 0, 0.5, 0, 50);
+  let d = map(vol, 0, 0.5, 5, circleSize);
+  let tit = map(vol, 0, 0.5, 0, shake);
   let wid = map(mouseX, 0, width, width / 2 - 20, width / 2 + 20);
   let alpMult2 = map(vol, 0, 0.5, 2, 3);
   let alpMult = map(mouseX, 0, width, 6, 1);
