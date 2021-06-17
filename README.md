@@ -1,9 +1,9 @@
 # Poan
 
+Poan is an interactive audiovisual work. **Click [here](https://ilginicozu.github.io/poan/)** to go to work.
+
 ![Image of Yaktocat](https://github.com/IlginIcozu/poan/blob/main/poan.png)
 
-
-Poan is an interactive audiovisual work. **Click [here](https://ilginicozu.github.io/poan/)** to go to work.
 
 ### Introductions
 
