@@ -94,9 +94,9 @@ function draw() {
   beginShape();
   stroke(233, alpha);
   for (let i = 0; i < waveform.length; i++) {
-    let x = map(i, 0, waveform.length, 0, windowHeight);
-    let y = map(waveform[i], -1, 1, 0, windowWidth);
-    vertex(y, x);
+    let x = map(i, 0, waveform.length, 0, windowWidth);
+    let y = map(waveform[i], -1, 1, 0, windowHeight);
+    vertex(x, y);
   }
   endShape();
 }
